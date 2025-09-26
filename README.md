@@ -1,54 +1,89 @@
-React Native BLE & Charting Demo
-This project is a technical assessment designed to showcase key mobile development capabilities using React Native. The application demonstrates two core features: real-time, two-way data communication with a hardware device using Bluetooth Low Energy (BLE), and data visualization through a heat map chart.
+Aqui está seu README reescrito em formato **profissional e organizado**, mantendo clareza e impacto:
 
-✨ Key Features
-This application successfully implements the two main requirements of the assessment:
+---
 
-Bluetooth Low Energy (BLE) Communication:
+# React Native BLE & Charting Demo
 
-Built with the react-native-ble-manager library.
+This project is a **technical assessment** showcasing essential mobile development capabilities with **React Native**.
+The application demonstrates two core features:
 
-Performs scanning for nearby BLE peripherals.
+* **Real-time, two-way data communication** with a hardware device via **Bluetooth Low Energy (BLE)**.
+* **Data visualization** through a **heat map chart**.
 
-Establishes a connection to a real BLE device based on its UUID.
+---
 
-Discovers the device's services and characteristics.
+## ✨ Key Features
 
-Demonstrates two-way communication by sending string data to the peripheral and receiving string data back.
+### 🔹 Bluetooth Low Energy (BLE) Communication
 
-Data Visualization:
+* Built with [`react-native-ble-manager`](https://github.com/innoveit/react-native-ble-manager).
+* Scans for nearby BLE peripherals.
+* Establishes a connection to a real BLE device by UUID.
+* Discovers device services and characteristics.
+* Demonstrates **two-way communication**:
 
-Includes a screen displaying a heat map chart.
+  * Sending string data to the peripheral.
+  * Receiving string data back.
 
-The chart is populated with placeholder data to demonstrate data visualization capabilities.
+### 🔹 Data Visualization
 
-🛠️ Technologies Used
-Framework: React Native (CLI)
+* Dedicated screen with a **heat map chart**.
+* Chart populated with placeholder data to illustrate visualization capabilities.
 
-Bluetooth: react-native-ble-manager
+---
 
-Permissions: react-native-permissions
+## 🛠️ Technologies Used
 
-Language: TypeScript
+* **Framework:** React Native (CLI)
+* **Bluetooth:** [react-native-ble-manager](https://github.com/innoveit/react-native-ble-manager)
+* **Permissions:** [react-native-permissions](https://github.com/zoontek/react-native-permissions)
+* **Language:** TypeScript
+* **Android Build System:** Gradle
 
-Android Build: Gradle
+---
 
-🚀 Getting Started
-To run this project locally, follow these steps:
+## 🚀 Getting Started
 
-1. Clone the repository:
+Follow these steps to run the project locally:
 
-'git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)'
-'cd BleDemoProject'
+### 1. Clone the repository
 
-2. Install dependencies:
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+cd BleDemoProject
+```
 
-'yarn install'
+### 2. Install dependencies
 
-3. Set up the Android environment:
-Ensure you have the Android SDK, JDK 17, and a physical Android device with USB Debugging enabled.
+```bash
+yarn install
+```
 
-4. Run the application:
-Connect your device and run the following command:
+### 3. Set up the Android environment
 
-'yarn react-native run-android'
+Ensure you have installed and configured:
+
+* **Android SDK**
+* **JDK 17**
+* A physical Android device with **USB Debugging enabled**
+
+📌 BLE features require a real device (not an emulator).
+
+### 4. Run the application
+
+Connect your device via USB and run:
+
+```bash
+yarn react-native run-android
+```
+
+---
+
+## 📌 Notes
+
+* On first launch, ensure required **Bluetooth and Location permissions** are granted.
+* The heat map chart uses placeholder data but can be adapted to real-time BLE input.
+
+---
+
+Quer que eu adicione também uma **seção de troubleshooting** (ex.: erros comuns como *“unable to load script”* e como resolver), para deixar o README ainda mais profissional?
