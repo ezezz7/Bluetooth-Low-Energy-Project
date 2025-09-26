@@ -1,10 +1,8 @@
-Aqui está seu README reescrito em formato **profissional e organizado**, mantendo clareza e impacto:
-
 ---
 
 # React Native BLE & Charting Demo
 
-This project is a **technical assessment** showcasing essential mobile development capabilities with **React Native**.
+This project showcases essential mobile development capabilities with **React Native**.
 The application demonstrates two core features:
 
 * **Real-time, two-way data communication** with a hardware device via **Bluetooth Low Energy (BLE)**.
