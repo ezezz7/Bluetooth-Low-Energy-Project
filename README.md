@@ -86,4 +86,3 @@ yarn react-native run-android
 
 ---
 
-Quer que eu adicione também uma **seção de troubleshooting** (ex.: erros comuns como *“unable to load script”* e como resolver), para deixar o README ainda mais profissional?
