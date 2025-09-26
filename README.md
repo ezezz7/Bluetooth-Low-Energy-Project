@@ -1,5 +1,3 @@
----
-
 # React Native BLE & Charting Demo
 
 This project showcases essential mobile development capabilities with **React Native**.
