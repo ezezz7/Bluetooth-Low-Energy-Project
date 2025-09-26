@@ -7,6 +7,10 @@ The application demonstrates two core features:
 * **Data visualization** through a **heat map chart**.
 
 ---
+## 🎥 Video Demonstration:
+https://vimeo.com/1122358499?share=copy
+
+---
 
 ## ✨ Key Features
 
